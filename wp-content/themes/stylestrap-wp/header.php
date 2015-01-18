@@ -27,9 +27,10 @@
 		
 		<header id="header">
 			
-	   </header>
+	   	</header>
+
 	   <nav id="main-navigation">
-	     
+	   	<?php wp_nav_menu(); ?>
 	   </nav>
 
 			

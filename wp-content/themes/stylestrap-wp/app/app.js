@@ -2,7 +2,7 @@
 /*
 ========================================================================================================================================
 	
-	APP NAME HERE
+	GMU Sculpture
 
 	This Javascript file uses jQuery as a dependency and is structured in the revealing module pattern. 
 
