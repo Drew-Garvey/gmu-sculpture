@@ -18,11 +18,11 @@
 // This are required for any project.  We are resetting/normalizing CSS and defining the color & typespace .  
 // we're agnostic so we've included both. 
 // ----------------------------------------------------------------------------------------------------------
-@import "01.ui-base/normalize/all"; //                     NORMALIZE - The start of any good UI base is a reset/normalize 
-@import "01.ui-base/color/all"; //                         COLOR - These are just variables so we'll include them before any real code
-@import "01.ui-base/typography/all"; //                    TYPOGRAPHY - Type reset, Universal font styles, type scale, 
-@import "03.ui-base/iconography/all"; //                   ICONOGRAPHY - Everything that
-@import "01.ui-base/grid/all"; //                          GRID - Type scale, the base typographical styles that are used across the app
+@import "01.identity/normalize/all"; //                     NORMALIZE - The start of any good UI base is a reset/normalize 
+@import "01.identity/color/all"; //                         COLOR - These are just variables so we'll include them before any real code
+@import "01.identity/typography/all"; //                    TYPOGRAPHY - Type reset, Universal font styles, type scale, 
+@import "03.identity/iconography/all"; //                   ICONOGRAPHY - Everything that
+@import "01.identity/grid/all"; //                          GRID - Type scale, the base typographical styles that are used across the app
 
 
 // UI LAYOUT // ---------------------------------------------------------------------------------------------
@@ -39,12 +39,12 @@
 // UI COMPONENETS // ----------------------------------------------------------------------------------------
 // This is the foundation of your app's UI.   This where we're defining the core layout 
 // ----------------------------------------------------------------------------------------------------------
-@import "03.ui-components/button/all"; //                  BUTTONS - Everything that
-@import "03.ui-components/form/all"; //                    FORMS - Everything that
-@import "03.ui-components/table/all"; //                   TABLES - Everything that
-@import "03.ui-components/pagination/all"; //              PAGINATION - Everything that
-@import "03.ui-components/tab/all"; //                     TABS - Everything that
-@import "03.ui-components/accordion/all"; //               ACCORDION - Everything that
+@import "03.patterns/button/all"; //                  BUTTONS - Everything that
+@import "03.patterns/form/all"; //                    FORMS - Everything that
+@import "03.patterns/table/all"; //                   TABLES - Everything that
+@import "03.patterns/pagination/all"; //              PAGINATION - Everything that
+@import "03.patterns/tab/all"; //                     TABS - Everything that
+@import "03.patterns/accordion/all"; //               ACCORDION - Everything that
 
 
 // UI STATE // ----------------------------------------------------------------------------------------------

@@ -18,45 +18,41 @@
 // This are required for any project.  We are resetting/normalizing CSS and defining the color & typespace .  
 // we're agnostic so we've included both. 
 // ----------------------------------------------------------------------------------------------------------
-@import "01.ui-base/normalize/all"; //                     NORMALIZE - The start of any good UI base is a reset/normalize 
-@import "01.ui-base/color/all"; //                         COLOR - These are just variables so we'll include them before any real code
-@import "01.ui-base/typography/all"; //                    TYPOGRAPHY - Type reset, Universal font styles, type scale, 
-@import "03.ui-base/iconography/all"; //                   ICONOGRAPHY - Everything that
-@import "01.ui-base/grid/all"; //                          GRID - Type scale, the base typographical styles that are used across the app
+@import "00.utility/normalize/all"; //                     NORMALIZE - The start of any good UI base is a reset/normalize 
+@import "01.identity/color/all"; //                         COLOR - These are just variables so we'll include them before any real code
+@import "01.identity/typography/all"; //                    TYPOGRAPHY - Type reset, Universal font styles, type scale, 
+@import "01.identity/iconography/all"; //                   ICONOGRAPHY - Everything that
 
 
 // UI LAYOUT // ---------------------------------------------------------------------------------------------
 // This is the foundation of your app's UI.   This where we're defining the core layout 
 // ----------------------------------------------------------------------------------------------------------
-@import "02.ui-layout/header/all"; //                      HEADER - 
-@import "02.ui-layout/navigation/all"; //                  NAVIGATION - Everything that 
-@import "02.ui-layout/page/all"; //                        PAGE - Everything that 
-@import "02.ui-layout/sidebar/all"; //                     SIDEBAR - Everything that 
-@import "02.ui-layout/offcanvas/all"; //                   OFF CANVAS - Everything that 
-@import "02.ui-layout/footer/all"; //                      FOOTER - Everything that 
+@import "02.layout/grid/all"; //                        GRID - Type scale, the base typographical styles that are used across the app
+@import "02.layout/header/all"; //                      HEADER - 
+@import "02.layout/sidebar/all"; //                     SIDEBAR - Everything that 
+@import "02.layout/footer/all"; //                      FOOTER - Everything that 
 
 
 // UI COMPONENETS // ----------------------------------------------------------------------------------------
 // This is the foundation of your app's UI.   This where we're defining the core layout 
 // ----------------------------------------------------------------------------------------------------------
-@import "03.ui-components/button/all"; //                  BUTTONS - Everything that
-@import "03.ui-components/form/all"; //                    FORMS - Everything that
-@import "03.ui-components/table/all"; //                   TABLES - Everything that
-@import "03.ui-components/pagination/all"; //              PAGINATION - Everything that
-@import "03.ui-components/tab/all"; //                     TABS - Everything that
-@import "03.ui-components/accordion/all"; //               ACCORDION - Everything that
+@import "03.patterns/buttons/all"; //                  BUTTONS - Everything that
+@import "03.patterns/forms/all"; //                    FORMS - Everything that
+@import "03.patterns/tables/all"; //                   TABLES - Everything that
+@import "03.patterns/pagination/all"; //              PAGINATION - Everything that
+@import "03.patterns/tabs/all"; //                     TABS - Everything that
 
 
 // UI STATE // ----------------------------------------------------------------------------------------------
 // This is the foundation of your app's UI.   This where we're defining the core layout 
 // ----------------------------------------------------------------------------------------------------------
-@import "04.ui-state/alert/all"; //                        ALERT - Everything that
-@import "04.ui-state/modal/all"; //                        MODAL - Everything that
-@import "04.ui-state/progress/all"; //                     PROGRESS - Everything that
-@import "04.ui-state/tooltip/all"; //                      TOOLTIP - Everything that
+// @import "04.ui-state/alert/all"; //                        ALERT - Everything that
+// @import "04.ui-state/modal/all"; //                        MODAL - Everything that
+// @import "04.ui-state/progress/all"; //                     PROGRESS - Everything that
+// @import "04.ui-state/tooltip/all"; //                      TOOLTIP - Everything that
 
 
 // PRINT // -------------------------------------------------------------------------------------------------
 // This is the foundation of your app's UI.   This where we're defining the core layout 
 // ----------------------------------------------------------------------------------------------------------
-@import "05.print/all"; //                                 PRINT - Everything that
+@import "04.print/all"; //                                 PRINT - Everything that
